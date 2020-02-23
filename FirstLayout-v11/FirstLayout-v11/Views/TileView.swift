@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 final class TileView: UIView {
     private let redView: UIView = {
         let view = UIView()
@@ -21,7 +22,7 @@ final class TileView: UIView {
         return view
     }()
     
-    var padding: CGFloat = 25.0 {
+    @IBInspectable var padding: CGFloat = 25.0 {
         didSet {
             setNeedsLayout()
         }
