@@ -58,16 +58,32 @@
 		F45722442402CE5800CB0B01 /* FirstLayout-v11 */ = {
 			isa = PBXGroup;
 			children = (
-				F45722452402CE5800CB0B01 /* AppDelegate.swift */,
-				F45722472402CE5800CB0B01 /* SceneDelegate.swift */,
-				F45722492402CE5800CB0B01 /* ViewController.swift */,
-				F457224B2402CE5800CB0B01 /* Main.storyboard */,
-				F457224E2402CE5A00CB0B01 /* Assets.xcassets */,
-				F45722502402CE5A00CB0B01 /* LaunchScreen.storyboard */,
-				F45722532402CE5A00CB0B01 /* Info.plist */,
-				F45722592402D60500CB0B01 /* TileView.swift */,
+				F457225C2402FED500CB0B01 /* Supporting FIles */,
+				F457225B2402FEAC00CB0B01 /* Views */,
 			);
 			path = "FirstLayout-v11";
+			sourceTree = "<group>";
+		};
+		F457225B2402FEAC00CB0B01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F45722492402CE5800CB0B01 /* ViewController.swift */,
+				F45722592402D60500CB0B01 /* TileView.swift */,
+				F457224B2402CE5800CB0B01 /* Main.storyboard */,
+				F45722502402CE5A00CB0B01 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F457225C2402FED500CB0B01 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				F45722452402CE5800CB0B01 /* AppDelegate.swift */,
+				F45722472402CE5800CB0B01 /* SceneDelegate.swift */,
+				F457224E2402CE5A00CB0B01 /* Assets.xcassets */,
+				F45722532402CE5A00CB0B01 /* Info.plist */,
+			);
+			path = "Supporting FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44ST363BTK;
-				INFOPLIST_FILE = "FirstLayout-v11/Info.plist";
+				INFOPLIST_FILE = "FirstLayout-v11/Supporting FIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44ST363BTK;
-				INFOPLIST_FILE = "FirstLayout-v11/Info.plist";
+				INFOPLIST_FILE = "FirstLayout-v11/Supporting FIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
