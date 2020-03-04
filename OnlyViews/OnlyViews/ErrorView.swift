@@ -78,7 +78,7 @@ class ErrorView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            lapisImageView.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            //lapisImageView.centerXAnchor.constraint(equalTo: self.centerXAnchor),
             lapisImageView.topAnchor.constraint(equalTo: self.topAnchor, constant: imageViewTopConstant),
             lapisImageView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: imageViewWidthConstant),
             lapisImageView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -imageViewWidthConstant),
@@ -86,7 +86,7 @@ class ErrorView: UIView {
             titleLabel.centerXAnchor.constraint(equalTo: lapisImageView.centerXAnchor),
             titleLabel.topAnchor.constraint(equalTo: lapisImageView.bottomAnchor, constant: 15),
 
-            textLabel.centerXAnchor.constraint(equalTo: titleLabel.centerXAnchor),
+            //textLabel.centerXAnchor.constraint(equalTo: titleLabel.centerXAnchor),
             textLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 15),
             textLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: textLabelWidthConstant),
             textLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -textLabelWidthConstant),
