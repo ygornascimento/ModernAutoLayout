@@ -9,12 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //let myView = FirstSample()
+    let myView = SecondSample()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupView()
     }
 
+    private func setupView() {
+        view.backgroundColor = .yellow
+        view.addSubview(myView)
+        myView.translatesAutoresizingMaskIntoConstraints = false
 
+        NSLayoutConstraint.activate([
+            myView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            myView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            myView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            myView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+        ])
+    }
 }
 

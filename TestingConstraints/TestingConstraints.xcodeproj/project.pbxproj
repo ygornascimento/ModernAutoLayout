@@ -10,11 +10,12 @@
 		F443017F2472AF2700DC8195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443017E2472AF2700DC8195 /* AppDelegate.swift */; };
 		F44301812472AF2700DC8195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44301802472AF2700DC8195 /* SceneDelegate.swift */; };
 		F44301832472AF2700DC8195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44301822472AF2700DC8195 /* ViewController.swift */; };
-		F44301862472AF2700DC8195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44301842472AF2700DC8195 /* Main.storyboard */; };
 		F44301882472AF2A00DC8195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44301872472AF2A00DC8195 /* Assets.xcassets */; };
 		F443018B2472AF2A00DC8195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44301892472AF2A00DC8195 /* LaunchScreen.storyboard */; };
 		F44301962472AF2A00DC8195 /* TestingConstraintsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44301952472AF2A00DC8195 /* TestingConstraintsTests.swift */; };
 		F44301A12472AF2A00DC8195 /* TestingConstraintsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44301A02472AF2A00DC8195 /* TestingConstraintsUITests.swift */; };
+		F44301AF2472AFC900DC8195 /* FirstSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44301AE2472AFC900DC8195 /* FirstSample.swift */; };
+		F487F6E22479D15300871004 /* SecondSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F487F6E12479D15300871004 /* SecondSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		F443017E2472AF2700DC8195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44301802472AF2700DC8195 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F44301822472AF2700DC8195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F44301852472AF2700DC8195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F44301872472AF2A00DC8195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F443018A2472AF2A00DC8195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F443018C2472AF2A00DC8195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		F443019C2472AF2A00DC8195 /* TestingConstraintsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingConstraintsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44301A02472AF2A00DC8195 /* TestingConstraintsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingConstraintsUITests.swift; sourceTree = "<group>"; };
 		F44301A22472AF2A00DC8195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44301AE2472AFC900DC8195 /* FirstSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSample.swift; sourceTree = "<group>"; };
+		F487F6E12479D15300871004 /* SecondSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 				F443017E2472AF2700DC8195 /* AppDelegate.swift */,
 				F44301802472AF2700DC8195 /* SceneDelegate.swift */,
 				F44301822472AF2700DC8195 /* ViewController.swift */,
-				F44301842472AF2700DC8195 /* Main.storyboard */,
 				F44301872472AF2A00DC8195 /* Assets.xcassets */,
 				F44301892472AF2A00DC8195 /* LaunchScreen.storyboard */,
 				F443018C2472AF2A00DC8195 /* Info.plist */,
+				F44301AE2472AFC900DC8195 /* FirstSample.swift */,
+				F487F6E12479D15300871004 /* SecondSample.swift */,
 			);
 			path = TestingConstraints;
 			sourceTree = "<group>";
@@ -234,7 +237,6 @@
 			files = (
 				F443018B2472AF2A00DC8195 /* LaunchScreen.storyboard in Resources */,
 				F44301882472AF2A00DC8195 /* Assets.xcassets in Resources */,
-				F44301862472AF2700DC8195 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44301AF2472AFC900DC8195 /* FirstSample.swift in Sources */,
+				F487F6E22479D15300871004 /* SecondSample.swift in Sources */,
 				F44301832472AF2700DC8195 /* ViewController.swift in Sources */,
 				F443017F2472AF2700DC8195 /* AppDelegate.swift in Sources */,
 				F44301812472AF2700DC8195 /* SceneDelegate.swift in Sources */,
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F44301842472AF2700DC8195 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F44301852472AF2700DC8195 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F44301892472AF2A00DC8195 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
