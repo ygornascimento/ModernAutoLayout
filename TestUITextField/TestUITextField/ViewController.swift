@@ -27,10 +27,6 @@ class ViewController: UIViewController {
     @objc func keyboadWillShow(notification: NSNotification) {
 
         if let keyboardHeightRect = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
-            print("View Frame = \(view.frame)")
-            print("View Frame Origin = \(view.frame.origin.y)")
-            print("Keyboard height = \(keyboardHeightRect.height)")
-            //keyboardSize = keyboardHeightRect
             view.frame.origin.y -= keyboardHeightRect.height / 2
         }
     }

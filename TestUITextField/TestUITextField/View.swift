@@ -51,22 +51,6 @@ class View: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
-
-    func addObserversForKeyboard() {
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(self.keyboadWillShow(notification:)),
-                                               name: UIResponder.keyboardWillShowNotification, object: nil)
-    }
-
-    @objc func keyboadWillShow(notification: NSNotification) {
-
-        if let keyboardHeightRect = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
-            print("Keyboard height = \(keyboardHeightRect.height)")
-            keyboardSize = keyboardHeightRect
-            self.frame.origin.y -= keyboardHeightRect.height
-        }
-    }
-
     private func setupView() {
         addSubview(textInput)
         addSubview(button)
